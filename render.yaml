@@ -1,12 +1,9 @@
 services:
   - type: web
-    name: pultolovbot
-    plan: free
+    name: pul-tolov-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
     runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
-    envVars:
-      - key: TOKEN
-        sync: false
-
+    pythonVersion: 3.10
 
