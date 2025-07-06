@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: pultolovbot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
-    envVars:
-      - key: BOT_TOKEN
-        value: 7566423803:AAGnoTwvZCYU7CliIun3iox9LkdvRuKmOeU
