@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: pultolovbot
     plan: free
     runtime: python
@@ -8,4 +8,5 @@ services:
     envVars:
       - key: TOKEN
         sync: false
+
 
