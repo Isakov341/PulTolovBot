@@ -2,8 +2,10 @@ services:
   - type: web
     name: PulTolovBot
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
     startCommand: python bot.py
     envVars:
       - key: BOT_TOKEN
-        fromDotenv: true  # тўғрилаш
+        fromDotenv: true
