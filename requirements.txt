@@ -1,3 +1,5 @@
-aiogram==2.25.2
-aiohttp==3.8.4  # Обязательно <3.9.0 для aiogram 2.x
-python-dotenv==1.0.1
+aiohttp==3.9.3
+python-dotenv>=1.0.0
+requests>=2.31.0
+uvicorn>=0.29.0
+fastapi>=0.109.0
