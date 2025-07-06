@@ -1,3 +1,4 @@
-aiogram==3.0.0b7  # Latest beta (supports newer aiohttp)
-aiohttp==3.9.3   # Now allowed
+aiogram==2.25.2
+aiohttp==3.8.5
+python-dotenv
 
