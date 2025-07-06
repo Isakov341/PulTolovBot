@@ -1,7 +1,4 @@
 aiogram==2.25.2
-aiohttp==3.9.3
-python-dotenv
-
-
+aiohttp==3.8.0  # Must be <3.9.0 for aiogram 2.25.2
 
 
