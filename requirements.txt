@@ -1,3 +1,3 @@
-aiogram==3.21.0
-aiohttp==3.8.5  
+aiogram==2.25.2
+aiohttp==3.8.4  # Обязательно <3.9.0 для aiogram 2.x
 python-dotenv==1.0.1
