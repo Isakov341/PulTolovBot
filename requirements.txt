@@ -1,2 +1,3 @@
-aiogram==3.21.0  # Latest stable version
-aiohttp==3.9.3  # Compatible with aiogram 3.x
+aiogram==3.21.0
+aiohttp==3.8.6
+python-dotenv
