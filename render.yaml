@@ -6,4 +6,4 @@ services:
     startCommand: python bot.py
     envVars:
       - key: BOT_TOKEN
-        fromDotEnv: true
+        fromDotenv: true  # тўғрилаш
