@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-# exit on error
-set -o errexit
-
-pip install --upgrade pip
-pip install -r requirements.txt
+aiogram==3.0.0b7
+aiohttp~=3.8.4
+python-dotenv
