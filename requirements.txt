@@ -1,2 +1,2 @@
-aiogram==3.0.1  # Example (check latest version)
-aiohttp==3.9.3  # Now allowed
+aiogram==3.21.0  # Latest stable version
+aiohttp==3.9.3  # Compatible with aiogram 3.x
