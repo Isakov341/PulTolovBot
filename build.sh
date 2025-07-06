@@ -1,3 +1,5 @@
-aiogram==3.0.0b7
-aiohttp~=3.8.4
-python-dotenv
+#!/usr/bin/env bash
+set -o errexit
+
+pip install --upgrade pip
+pip install --upgrade --force-reinstall -r requirements.txt
