@@ -1,13 +1,9 @@
 services:
   - type: web
-    name: pul-tolov-bot           # Botingiz nomi (o'zingiz xohlagancha o'zgartiring)
+    name: pultolovbot
     env: python
-    runtime: python
-    buildCommand: "./build.sh"
-    startCommand: "python bot.py"
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
     envVars:
       - key: BOT_TOKEN
-        fromSecret: telegram-bot-token   # Render Secrets’da saqlagan token nomi
-      - key: PYTHON_VERSION
-        value: "3.11.9"
-
+        value: 7566423803:AAGnoTwvZCYU7CliIun3iox9LkdvRuKmOeU
