@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: PulTolovBot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        fromDotEnv: true
