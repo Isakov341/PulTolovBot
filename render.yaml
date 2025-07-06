@@ -1,8 +1,5 @@
-services:
-  - type: web
-    name: pultolovbot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
-    pythonVersion: 3.11.6
+buildCommand: |
+  pyenv install 3.11.9
+  pyenv global 3.11.9
+  pip install -r requirements.txt
 
