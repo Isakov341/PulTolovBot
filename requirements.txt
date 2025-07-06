@@ -1,4 +1,4 @@
-aiohttp
+aiogram==3.0.0b7  # or the latest stable version
 
 
 
