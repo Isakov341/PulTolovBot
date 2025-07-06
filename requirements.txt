@@ -1,4 +1,6 @@
-aiogram==3.0.0b7  # or the latest stable version
+aiogram==2.25.2
+aiohttp==3.9.3
+python-dotenv
 
 
 
