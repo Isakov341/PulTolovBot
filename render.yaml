@@ -1,5 +1,13 @@
-buildCommand: |
-  pyenv install 3.11.9
-  pyenv global 3.11.9
-  pip install -r requirements.txt
+services:
+  - type: web
+    name: pul-tolov-bot           # Botingiz nomi (o'zingiz xohlagancha o'zgartiring)
+    env: python
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "python bot.py"
+    envVars:
+      - key: BOT_TOKEN
+        fromSecret: telegram-bot-token   # Render Secrets’da saqlagan token nomi
+      - key: PYTHON_VERSION
+        value: "3.11.9"
 
